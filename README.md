@@ -7,3 +7,17 @@
               \____/\____/_/   \__, /\___/  /_/ |_/ |___/_/_/ /_/ /_/ 
                               /____/                                  
 My NeoVim Files
+
+## Introduction
+
+## Installation
+
+## Content
+
+### Folder Structure
+
+#### Plugins
+
+#### Key Mappings
+
+#### Themes
