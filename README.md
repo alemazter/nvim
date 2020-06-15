@@ -6,7 +6,8 @@
               / /_/ / /_/ / /  / /_/ /  __/  / /|  /| |/ / / / / / / /
               \____/\____/_/   \__, /\___/  /_/ |_/ |___/_/_/ /_/ /_/ 
                               /____/                                  
-My NeoVim Files
+
+![Jorge's Nvim pic](./images/jorge_vim.jpg)
 
 ## Introduction
 
@@ -24,6 +25,7 @@ My NeoVim Files
 
 1. Command Promt:
     Utilizo Windows Terminal y mi línea de commandos (Command Prompt) está modificada para utilizar "PowerLine"
+
     Las instrucciones para instalar PowerLine se encuentran en https://docs.microsoft.com/en-us/windows/terminal/tutorials/powerline-setup
 
 
