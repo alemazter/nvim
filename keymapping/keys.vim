@@ -1,6 +1,5 @@
 " Mapping NERDTree
-vmap <C-n> :NERDTreeToggle<cr>
-nmap <C-n> :NERDTreeToggle<cr>
+map <C-n> :NERDTreeToggle<cr>
 
 " Use alt + hjkl to resize windows
 nnoremap <M-j>  :resize -2<CR>
