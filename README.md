@@ -21,3 +21,9 @@ My NeoVim Files
 #### Key Mappings
 
 #### Themes
+
+1. Command Promt:
+    Utilizo Windows Terminal y mi línea de commandos (Command Prompt) está modificada para utilizar "PowerLine"
+    Las instrucciones para instalar PowerLine se encuentran en https://docs.microsoft.com/en-us/windows/terminal/tutorials/powerline-setup
+
+
