@@ -26,6 +26,12 @@ set incsearch
 set termguicolors
 set guioptions-=T " No Tool bar
 
+colorscheme gruvbox
+
+let g:python3_host_prog = '~/.virtualenvs/nvim-9Keq6Vx5/Scripts/python.exe'
+
+let g:loaded_python_provider = 0
+
 let g:gruvbox_contrast_dark = 'medium'
 
 set background=dark
