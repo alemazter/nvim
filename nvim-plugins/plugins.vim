@@ -1,7 +1,7 @@
 " Specify a directory for plugins
 "
 " - For Neovim: stdpath('data') . '/plugged'
-call plug#begin(stdpath('data').'\plugged')
+call plug#begin(stdpath('data').'/plugged')
 
     " NERDTree
     Plug 'preservim/nerdtree'
