@@ -9,7 +9,7 @@
 
 ![Jorge's Nvim pic](./images/jorge_vim.jpg)
 
-## Introduction
+## Introducción
 
 ## Instalación
 
