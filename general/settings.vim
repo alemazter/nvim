@@ -1,10 +1,13 @@
 syntax on 
 
-set guicursor=
-set cursorline
-set guifont=DejaVuSansMono_Nerd_Font_Mono:h11
+set guicursor=                                     " Disable blinking for the n-v-c modes
+set guifont=DejaVuSansMono_Nerd_Font_Mono:h11      " Set the font in the GUI (nvim-qt), font in console NeoVim is determine by the console font
+set termguicolors
+set guioptions-=T " No Tool bar
 
-set hidden
+set cursorline                                     " Highlight the current line
+
+set hidden                                         " When on a buffer becomes hidden when it is abandoned
 set nowrap
 set encoding=UTF-8
 
@@ -15,18 +18,16 @@ set smarttab
 set tabstop=4 softtabstop=4
 set shiftwidth=4
 set expandtab
-
-set nowrap
 set smartcase
+set incsearch
+
 set noswapfile
 set nobackup
-set undodir=~/AppData/Local/nvim-data/undodir
 set undofile
-set incsearch
-set termguicolors
-set guioptions-=T " No Tool bar
+set undodir=~/AppData/Local/nvim-data/undodir
 
 colorscheme gruvbox
+set background=dark
 
 let g:python3_host_prog = '~/.virtualenvs/nvim-9Keq6Vx5/Scripts/python.exe'
 
@@ -34,4 +35,3 @@ let g:loaded_python_provider = 0
 
 let g:gruvbox_contrast_dark = 'medium'
 
-set background=dark
