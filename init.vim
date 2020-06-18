@@ -1,7 +1,12 @@
-source ~\AppData\Local\nvim\nvim-plugins\plugins.vim
-source ~\AppData\Local\nvim\general\settings.vim
-source ~\AppData\Local\nvim\keymapping\keys.vim
-source ~\AppData\Local\nvim\themes\airline.vim
-source ~\AppData\Local\nvim\plug-config\coc.vim
-source ~\AppData\Local\nvim\plug-config\nerdcommenter.vim
+let g:nvim_config_root = stdpath('config')
+let g:config_file_list = ['nvim-plugins/plugins.vim',
+    \ 'general/settings.vim',
+    \ 'keymapping\keys.vim',
+    \ 'themes\airline.vim',
+    \ 'plug-config\coc.vim',
+    \ 'plug-config\nerdcommenter.vim'
+    \ ]
 
+for f in g:config_file_list
+        execute 'source ' . g:nvim_config_root . '/' . f
+    endfor
