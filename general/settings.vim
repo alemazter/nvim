@@ -24,7 +24,7 @@ set incsearch
 set noswapfile
 set nobackup
 set undofile
-set undodir=~/AppData/Local/nvim-data/undodir
+set undodir=stdpath('data').'/undodir'
 
 colorscheme gruvbox
 set background=dark
