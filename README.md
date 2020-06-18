@@ -44,3 +44,5 @@ Sigue los siguentes pasos para conufigurar NeoVim.
    Utilizo Windows Terminal y mi línea de commandos (Command Prompt) está modificada para utilizar "PowerLine"
 
     Las instrucciones para instalar PowerLine se encuentran en https://docs.microsoft.com/en-us/windows/terminal/tutorials/powerline-setup
+
+2. En Linux estoy utilizando la terminal llamada Terminator y zsh como shell
