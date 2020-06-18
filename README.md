@@ -20,7 +20,15 @@ Los siguientes paquetes son requeridos para la instalación de los plugins.
 1. 📦 Node.js https://nodejs.org/en/download/package-manager/
 2. 📦 "vim-plug" https://github.com/junegunn/vim-plug
 3. 📦 Pipenv
-   3.1 instalar pynvim en el ambiente virtual
+4. 📦 Nerd Font: https://github.com/ryanoasis/nerd-fonts
+
+### Pasos:
+
+Sigue los siguentes pasos para conufigurar NeoVim.
+
+1. instalar pynvim en el ambiente virtual destinado a NeoVim.
+2. Instalar el tipo de letra de "Nerd Font". Puedes instalar cualquiera de los tipos de letras en el sitio de Nerf Fonts, sin embargo el tipo de letra en mi configuración es "DejaVu Sans Mono Nerd Font"
+    1. Una vez instalada el tipo de letra en tu sistema, seleccionala en tu terminal.
 
 ## Content
 
