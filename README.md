@@ -13,6 +13,8 @@
 
 ## Instalación
 
+Primero hay que instalar las dependencias.
+
 ### Dependencias
 
 Los siguientes paquetes son requeridos para la instalación de los plugins y las extensiones.
@@ -20,12 +22,17 @@ Los siguientes paquetes son requeridos para la instalación de los plugins y las
 1. 📦 Node.js https://nodejs.org/en/download/package-manager/
     
     En Ubunut y otras distribuciones basadas en Debian:
-    `$ sudo apt install npm`
+
+    ```sh
+    $ sudo apt install npm`
+    ```
 
     En Manjaro y otras distribuciones basadas en Arch:
-    `$sudo pacman -S npm`
 
-    En Windows puedes bajarlo directamente desde nodejs.org o utlizando Chocolatey (Mi recomendación), más información enÑ https://nodejs.org/en/download/package-manager/#windows
+    ```sh
+    $sudo pacman -S npm`
+    ```
+    En Windows puedes bajarlo directamente desde nodejs.org o utlizando Chocolatey (Mi recomendación), más información en: https://nodejs.org/en/download/package-manager/#windows
 
 2. 📦 "vim-plug" https://github.com/junegunn/vim-plug
 
@@ -59,15 +66,29 @@ Los siguientes paquetes son requeridos para la instalación de los plugins y las
     )
     ```    
 
-3. 📦 Nerd Font: https://github.com/ryanoasis/nerd-fonts
+3. 📦 Nerd Font: https://www.nerdfonts.com/font-downloads
 
-### Pasos:
+    Este tipo de letra es la que te va a permitir visualizar iconos en tu terminal, puedes utilizar cualquiera de las "Nerd Fonts", el tipo de letra que se ve en la imágen del proyecto es "DejaVuSansMono Nerd Font"
 
-Sigue los siguentes pasos para conufigurar NeoVim.
+    Una vez que la hayas descargado, descomprimela.
 
-1. instalar pynvim en el ambiente virtual destinado a NeoVim.
-2. Instalar el tipo de letra de "Nerd Font". Puedes instalar cualquiera de los tipos de letras en el sitio de Nerf Fonts, sin embargo el tipo de letra en mi configuración es "DejaVu Sans Mono Nerd Font"
-    1. Una vez instalada el tipo de letra en tu sistema, seleccionala en tu terminal.
+    Para Instalarla:
+
+    ###### Linux
+    Copia los archivos a `~/.local/share/fonts`
+
+    ###### Windows
+    Selecciona todos los archivos que acabs de descomprimir (.ttf), clic derecho y presiona "instalar"
+
+### Clona el projecto en tu sistema
+
+Para clonar el proyecto:
+
+###### Linux
+```sh
+    $ cd ~/.config/
+    $ git clone https://github.com/jorge-ramirezs/nvim.git
+```
 
 ## Content
 
