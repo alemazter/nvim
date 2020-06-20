@@ -24,13 +24,13 @@ Los siguientes paquetes son requeridos para la instalación de los plugins y las
     En Ubunut y otras distribuciones basadas en Debian:
 
     ```sh
-    $ sudo apt install npm`
+    sudo apt install npm
     ```
 
     En Manjaro y otras distribuciones basadas en Arch:
 
     ```sh
-    $sudo pacman -S npm`
+    sudo pacman -S npm
     ```
     En Windows puedes bajarlo directamente desde nodejs.org o utlizando Chocolatey (Mi recomendación), más información en: https://nodejs.org/en/download/package-manager/#windows
 
@@ -86,23 +86,25 @@ Para clonar el proyecto:
 
 ###### Linux
 ```sh
-    $ cd ~/.config/
-    $ git clone https://github.com/jorge-ramirezs/nvim.git
+git clone https://github.com/jorge-ramirezs/nvim.git ~/.config/
 ```
 
-## Content
+###### Windows
+```powershell
+git clone https://github.com/jorge-ramirezs/nvim.git ~\AppData\Local\nvim
+```
 
-### Folder Structure
+## Detalles
 
 #### Plugins
 
 #### Key Mappings
 
-#### Themes
+#### Temas y demás colores
 
 1. Command Promt:
    Utilizo Windows Terminal y mi línea de commandos (Command Prompt) está modificada para utilizar "PowerLine"
 
     Las instrucciones para instalar PowerLine se encuentran en https://docs.microsoft.com/en-us/windows/terminal/tutorials/powerline-setup
 
-2. En Linux estoy utilizando la terminal llamada Terminator y zsh como shell
+2. En Linux estoy utilizando la terminal llamada Alacritty y zsh como shell
