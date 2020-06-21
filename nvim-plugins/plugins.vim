@@ -36,5 +36,6 @@ call plug#begin(stdpath('data').'/plugged')
 
     " NERDCommenter 
     Plug 'preservim/nerdcommenter'
+
 " Initialize plugin system
 call plug#end()
