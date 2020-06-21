@@ -18,8 +18,14 @@ Utilizo NeoVim principalmente para desarrollo "fullstack", esta configuración e
 
 2. [NeoVim](https://github.com/neovim/neovim/wiki/Installing-Neovim) en tu sistema, asegurate de tener la versión más reciente.
 
+###### Ubuntu, Debian, etc.
 ```sh
 sudo apt install neovim python-neovim python3-neovim xsel xclip
+```
+
+###### Archlinux, Manjaro, etc.
+```sh
+sudo pacman -S neovim python-pynvim xsel xclip
 ```
 
 Despues instala los siguentes paquetes y plugin manager.
