@@ -14,11 +14,17 @@ Utilizo NeoVim principalmente para desarrollo "fullstack", esta configuración e
 
 ## Instalación
 
-Obviamente primero debes tener instalado [git](https://git-scm.com/downloads) y [NeoVim](https://github.com/neovim/neovim/wiki/Installing-Neovim) en tu sistema.
+1. Obviamente primero debes tener instalado [git](https://git-scm.com/downloads)
 
-Despues instala los siguentes paquetes.
+2. [NeoVim](https://github.com/neovim/neovim/wiki/Installing-Neovim) en tu sistema, asegurate de tener la versión más reciente.
 
-### Dependencias
+```sh
+sudo apt install neovim python-neovim python3-neovim xsel xclip
+```
+
+Despues instala los siguentes paquetes y plugin manager.
+
+### Dependencias  y Plugins
 
 Los siguientes paquetes son requeridos para la instalación de los plugins y las extensiones.
 
@@ -95,6 +101,13 @@ git clone https://github.com/jorge-ramirezs/nvim.git ~/.config/nvim
 ###### Windows
 ```powershell
 git clone https://github.com/jorge-ramirezs/nvim.git ~\AppData\Local\nvim
+```
+
+### Instala los Plugins en NeoVim
+Una vez clonado el proyecto, abre NeoVim, al principio recibiras unos errores porque requieres instalar los Plugins con el siguiente comando:
+
+```
+:PlugInstall
 ```
 
 ## Detalles
