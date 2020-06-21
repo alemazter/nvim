@@ -14,7 +14,9 @@ Utilizo NeoVim principalmente para desarrollo "fullstack", esta configuración e
 
 ## Instalación
 
-Primero hay que instalar las dependencias.
+Obviamente primero debes tener instalado [git](https://git-scm.com/downloads) y [NeoVim](https://github.com/neovim/neovim/wiki/Installing-Neovim) en tu sistema.
+
+Despues instala los siguentes paquetes.
 
 ### Dependencias
 
@@ -87,7 +89,7 @@ Para clonar el proyecto:
 
 ###### Linux
 ```sh
-git clone https://github.com/jorge-ramirezs/nvim.git ~/.config/
+git clone https://github.com/jorge-ramirezs/nvim.git ~/.config/nvim
 ```
 
 ###### Windows
