@@ -18,4 +18,4 @@ nmap <C-_> <Plug>NERDCommenterToggle<cr>
 "       :edit term://bash
 "       :vsplit term://top
 " For more :help terminal
-nmap <leader>t :vsplit term://pwsh.exe<cr>
+nmap <leader>t :vsplit term://zsh<cr>
