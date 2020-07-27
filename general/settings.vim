@@ -11,7 +11,7 @@ set hidden                                         " When on a buffer becomes hi
 set nowrap
 set encoding=UTF-8
 
-set relativenumber
+set number relativenumber
 
 set smartindent
 set smarttab
