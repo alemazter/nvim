@@ -20,12 +20,12 @@ Utilizo NeoVim principalmente para desarrollo "fullstack", esta configuración e
 
 ###### Ubuntu, Debian, etc.
 ```sh
-sudo apt install neovim python-neovim python3-neovim xsel xclip
+sudo apt install neovim python-neovim python3-neovim python3-jedi xsel xclip
 ```
 
 ###### Archlinux, Manjaro, etc.
 ```sh
-sudo pacman -S neovim python-pynvim xsel xclip
+sudo pacman -S neovim python-pynvim python-jedi xsel xclip
 ```
 
 Despues instala los siguentes paquetes y plugin manager.
