@@ -3,6 +3,10 @@
 " - For Neovim: stdpath('data') . '/plugged'
 call plug#begin(stdpath('data').'/plugged')
 
+    " FZF Plugin. FUzzy Finder
+    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+    Plug 'junegunn/fzf.vim'
+
     " NERDTree
     Plug 'preservim/nerdtree'
 
@@ -16,7 +20,7 @@ call plug#begin(stdpath('data').'/plugged')
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
     " Jedi - an awesome autocompletion, static analysis and refactoring library for Python
-    Plug 'davidhalter/jedi'
+    " Plug 'davidhalter/jedi'
 
     " Auto Pairs insert or delete brackets, parens, quotes in pair.
     Plug 'jiangmiao/auto-pairs'
@@ -36,6 +40,9 @@ call plug#begin(stdpath('data').'/plugged')
 
     " NERDCommenter 
     Plug 'preservim/nerdcommenter'
+
+    " Vim be good is a plugin designed to make you better at vim by creating a game to practice basic movements in.
+    Plug 'ThePrimeagen/vim-be-good', {'do': './install.sh'}
 
 " Initialize plugin system
 call plug#end()

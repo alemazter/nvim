@@ -19,3 +19,7 @@ nmap <C-_> <Plug>NERDCommenterToggle<cr>
 "       :vsplit term://top
 " For more :help terminal
 nmap <leader>t :vsplit term://zsh<cr>
+
+" FZF keybinds
+nmap <leader>f :Files<cr>
+nmap <leader>b :Buffers<cr>
