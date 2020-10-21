@@ -22,7 +22,15 @@
     \ 'coc-marketplace',
     \ ]
 
-" Use tab for trigger completion with characters ahead and navigate.
+" Prettier
+let g:coc_filetype_map = {
+            \ 'htmldjango': 'html',
+            \}
+command! -nargs=0 Prettier :call CocAction('runCommand', 'prettier.formatFile')
+vmap <leader>p :Prettier<CR>
+nmap <leader>p :Prettier<CR>
+
+"Use tab for trigger completion with characters ahead and navigate.
 inoremap <silent><expr> <TAB>
       \ pumvisible() ? "\<C-n>" :
       \ <SID>check_back_space() ? "\<TAB>" :

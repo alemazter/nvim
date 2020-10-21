@@ -25,6 +25,9 @@ call plug#begin(stdpath('data').'/plugged')
     " Auto Pairs insert or delete brackets, parens, quotes in pair.
     Plug 'jiangmiao/auto-pairs'
 
+    " Surround.vim
+    Plug 'tpope/vim-surround'
+
     " Airline status bar
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
@@ -36,13 +39,16 @@ call plug#begin(stdpath('data').'/plugged')
     Plug 'flazz/vim-colorschemes'
 
     " Vim Prettier
-    Plug 'prettier/vim-prettier', { 'do': 'npm install'  }    
+    " Plug 'prettier/vim-prettier', { 'do': 'npm install'  }
 
     " NERDCommenter 
     Plug 'preservim/nerdcommenter'
 
+    " Startify
+    Plug 'mhinz/vim-startify'
+    
     " Vim be good is a plugin designed to make you better at vim by creating a game to practice basic movements in.
-    Plug 'ThePrimeagen/vim-be-good', {'do': './install.sh'}
+    " Plug 'ThePrimeagen/vim-be-good', {'do': './install.sh'}
 
 " Initialize plugin system
 call plug#end()

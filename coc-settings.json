@@ -1,3 +1,16 @@
 {
-    "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "python", "html", "js", "htmldjango"]
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "markdown",
+    "python",
+    "html",
+    "js",
+    "htmldjango",
+    "vue",
+    "json"
+  ],
+  "emmet.includeLanguages": { "htmldjango": "html" },
+  "html.enable": true,
+  "html.filetypes": ["html", "handlebars", "htmldjango"],
+  "html.format.enable": true
 }
