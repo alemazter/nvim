@@ -19,3 +19,10 @@ nmap <C-_> <Plug>NERDCommenterToggle<cr>
 "       :vsplit term://top
 " For more :help terminal
 nmap <leader>t :vsplit term://pwsh.exe<cr>
+
+" FZF keybinds
+nmap <leader>f :Files<cr>
+nmap <leader>b :Buffers<cr>
+
+" Quick working directory change
+nnoremap <leader>cd :cd %:p:h<CR>

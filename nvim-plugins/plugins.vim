@@ -3,6 +3,10 @@
 " - For Neovim: stdpath('data') . '/plugged'
 call plug#begin(stdpath('data').'/plugged')
 
+    " FZF Plugin. FUzzy Finder
+    Plug 'junegunn/fzf', { 'do': { -> fzf#install()  }  }
+    Plug 'junegunn/fzf.vim'
+
     " NERDTree
     Plug 'preservim/nerdtree'
 
@@ -21,6 +25,9 @@ call plug#begin(stdpath('data').'/plugged')
     " Auto Pairs insert or delete brackets, parens, quotes in pair.
     Plug 'jiangmiao/auto-pairs'
 
+    " Surround.vim
+    Plug 'tpope/vim-surround'
+    
     " Airline status bar
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
@@ -32,7 +39,7 @@ call plug#begin(stdpath('data').'/plugged')
     Plug 'flazz/vim-colorschemes'
 
     " Vim Prettier
-    Plug 'prettier/vim-prettier', { 'do': 'npm install'  }    
+    " Plug 'prettier/vim-prettier', { 'do': 'npm install'  }    
 
     " NERDCommenter 
     Plug 'preservim/nerdcommenter'
