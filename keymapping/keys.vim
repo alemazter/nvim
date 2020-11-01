@@ -1,4 +1,10 @@
-" Mapping NERDTree
+" Edit vimrc faster
+nnoremap <Leader>v :e $MYVIMRC<cr>
+
+"Change working directory
+nnoremap <leader>cd :cd %:p:h<cr>
+
+"Mapping NERDTree
 map <C-n> :NERDTreeToggle<cr>
 
 " Use alt + hjkl to resize windows
