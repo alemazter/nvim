@@ -8,6 +8,7 @@ set guioptions-=T                                   " No Tool bar
 set cursorline                                     " Highlight the current line
 
 set hidden                                         " When on a buffer becomes hidden when it is abandoned
+set path+=**
 set nowrap
 set encoding=UTF-8
 
