@@ -37,7 +37,8 @@ set background=dark
 " Python virtual environment detection in linux
 let g:loaded_python_provider = 0
 " let g:loaded_python3_provider = 0
-let g:python3_host_prog = '/home/jorge/.local/share/virtualenvs/nvim-86YW0UDp/bin/python3'
+let g:python3_host_prog = '/usr/bin/python3'
+" let g:python3_host_prog = '/home/jorge/.local/share/virtualenvs/nvim-86YW0UDp/bin/python3'
 
 " gruvbox
 let g:gruvbox_contrast_dark = 'medium'
