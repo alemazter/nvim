@@ -22,7 +22,7 @@ Utilizo NeoVim principalmente para desarrollo "fullstack", esta configuración e
 ###### Ubuntu, Debian, etc.
 
 ```sh
-sudo apt install neovim python-neovim python3-neovim python3-jedi xsel xclip
+sudo apt install neovim python-neovim python3-neovim python3-jedi python-pipenv xsel xclip
 ```
 
 ###### Archlinux, Manjaro, etc.
