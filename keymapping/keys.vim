@@ -26,3 +26,6 @@ nmap <leader>b :Buffers<cr>
 
 " Quick working directory change
 nnoremap <leader>cd :cd %:p:h<CR>
+
+nnoremap <leader><tab> :bn<cr>
+nnoremap <leader><S-tab> :bp<cr>
