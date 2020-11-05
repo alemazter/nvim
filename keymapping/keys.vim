@@ -29,3 +29,6 @@ nmap <leader>t :vsplit term://zsh<cr>
 " FZF keybinds
 nmap <leader>f :Files<cr>
 nmap <leader>b :Buffers<cr>
+
+nnoremap <leader><tab> :bn<cr>
+nnoremap <leader><S-tab> :bp<cr>

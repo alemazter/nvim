@@ -28,7 +28,7 @@ sudo apt install neovim python-neovim python3-neovim python3-jedi python-pipenv 
 ###### Archlinux, Manjaro, etc.
 
 ```sh
-sudo pacman -S neovim python-pynvim python-jedi python-pipenv xsel xclip
+sudo pacman -S neovim python-pynvim python-jedi python-pylint python-pipenv xsel xclip
 ```
 
 Despues instala los siguentes paquetes y plugin manager.
