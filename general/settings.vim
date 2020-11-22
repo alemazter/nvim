@@ -43,6 +43,9 @@ let g:python3_host_prog = '/home/jorge/.local/share/virtualenvs/nvim-86YW0UDp/bi
 " gruvbox
 let g:gruvbox_contrast_dark = 'medium'
 
+" use rg instead of grep for search and replace
+set grepprg=rg\ --vimgrep\ --smart-case\ --follow
+
 nnoremap <SPACE> <Nop>
 let mapleader = " "
 

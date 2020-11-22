@@ -27,7 +27,11 @@ nmap <C-_> <Plug>NERDCommenterToggle<cr>
 nmap <leader>t :vsplit term://zsh<cr>
 
 " FZF keybinds
-nmap <leader>f :Files<cr>
+" Find files
+nnoremap <silent> <C-f> :Files<cr>
+
+" Find In Files
+nnoremap <silent> <leader>f :Rg<cr>
 nmap <leader>b :Buffers<cr>
 
 nnoremap <leader><tab> :bn<cr>

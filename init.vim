@@ -5,7 +5,8 @@ let g:config_file_list = ['/nvim-plugins/plugins.vim',
     \ '/keymapping/keys.vim',
     \ '/themes/airline.vim',
     \ '/plug-config/coc.vim',
-    \ '/plug-config/nerdcommenter.vim'
+    \ '/plug-config/nerdcommenter.vim',
+    \ '/plug-config/firenvim.vim'
     \ ]
 
 for f in g:config_file_list

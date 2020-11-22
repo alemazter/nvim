@@ -3,6 +3,9 @@
 " - For Neovim: stdpath('data') . '/plugged'
 call plug#begin(stdpath('data').'/plugged')
 
+    "FireNVim: Turn your browser into a Neovim client.
+    Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(69) } }
+
     " FZF Plugin. FUzzy Finder
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
