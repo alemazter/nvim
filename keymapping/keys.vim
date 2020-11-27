@@ -28,10 +28,10 @@ nmap <leader>t :vsplit term://zsh<cr>
 
 " FZF keybinds
 " Find files
-nnoremap <silent> <C-f> :Files<cr>
+nnoremap <silent> <leader>f :Files<cr>
 
 " Find In Files
-nnoremap <silent> <leader>f :Rg<cr>
+nnoremap <silent> <C-f> :Rg<cr>
 nmap <leader>b :Buffers<cr>
 
 nnoremap <leader><tab> :bn<cr>
