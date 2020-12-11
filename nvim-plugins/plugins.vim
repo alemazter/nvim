@@ -40,6 +40,7 @@ call plug#begin(stdpath('data').'/plugged')
     Plug 'sainnhe/gruvbox-material'
     Plug 'phanviet/vim-monokai-pro'
     Plug 'flazz/vim-colorschemes'
+    Plug 'tomasiser/vim-code-dark'
 
     " Vim Prettier
     " Plug 'prettier/vim-prettier', { 'do': 'npm install'  }

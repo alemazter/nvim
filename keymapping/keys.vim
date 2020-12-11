@@ -1,6 +1,9 @@
 " Edit vimrc faster
 nnoremap <Leader>v :e $MYVIMRC<cr>
 
+" Reload init.vim
+nnoremap <silent> <Leader><Leader> :source $MYVIMRC<cr>
+
 "Change working directory
 nnoremap <leader>cd :cd %:p:h<cr>
 
@@ -34,5 +37,9 @@ nnoremap <silent> <leader>f :Files<cr>
 nnoremap <silent> <C-f> :Rg<cr>
 nmap <leader>b :Buffers<cr>
 
+" Move between buffers
 nnoremap <leader><tab> :bn<cr>
 nnoremap <leader><S-tab> :bp<cr>
+
+" Closing and hiding current buffer
+nnoremap <leader>w :bd<cr>

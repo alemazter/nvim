@@ -1,7 +1,7 @@
 syntax enable
 
 set guicursor=                                     " Disable blinking for the n-v-c modes
-set guifont=MesloLGS_Regular_Nerd_Font:h11      " Set the font in the GUI (nvim-qt), font in console NeoVim is determine by the console font
+" set guifont=MesloLGS_Regular_Nerd_Font:h12         " Set the font in the GUI (nvim-qt), font in console NeoVim is determine by the console font
 set termguicolors
 set guioptions-=T                                   " No Tool bar
 
@@ -49,3 +49,8 @@ set grepprg=rg\ --vimgrep\ --smart-case\ --follow
 nnoremap <SPACE> <Nop>
 let mapleader = " "
 
+" Clean all registers
+let regs=split('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789/-"', '\zs')
+for r in regs
+  call setreg(r, [])
+endfor
