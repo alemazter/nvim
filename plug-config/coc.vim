@@ -14,7 +14,6 @@
     \ 'coc-python',
     \ 'coc-explorer',
     \ 'coc-svg',
-    \ 'coc-prettier',
     \ 'coc-vimlsp',
     \ 'coc-xml',
     \ 'coc-yank',
@@ -26,7 +25,7 @@
 let g:coc_filetype_map = {
             \ 'htmldjango': 'html',
             \}
-command! -nargs=0 Prettier :call CocAction('runCommand', 'prettier.formatFile')
+" command! -nargs=0 Prettier :call CocAction('runCommand', 'prettier.formatFile')
 vmap <leader>p :Prettier<CR>
 nmap <leader>p :Prettier<CR>
 

@@ -43,7 +43,7 @@ call plug#begin(stdpath('data').'/plugged')
     Plug 'tomasiser/vim-code-dark'
 
     " Vim Prettier
-    " Plug 'prettier/vim-prettier', { 'do': 'npm install'  }
+    Plug 'prettier/vim-prettier', { 'do': 'npm install'  }
 
     " NERDCommenter 
     Plug 'preservim/nerdcommenter'

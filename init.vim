@@ -7,6 +7,7 @@ let g:config_file_list = ['/nvim-plugins/plugins.vim',
     \ '/plug-config/coc.vim',
     \ '/plug-config/nerdcommenter.vim',
     \ '/plug-config/firenvim.vim',
+    \ '/plug-config/prettier.vim',
     \ '/plug-config/startify.vim'
     \ ]
 

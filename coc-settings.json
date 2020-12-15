@@ -17,5 +17,6 @@
     "--load-plugins=pylint_django",
     "--load-plugins=pylint_django.checkers.migrations",
     "--errors-only"
-  ]
+  ],
+  "python.jediPath": "/usr/lib/python3.9/site-packages"
 }
