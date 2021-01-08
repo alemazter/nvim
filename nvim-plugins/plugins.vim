@@ -3,6 +3,12 @@
 " - For Neovim: stdpath('data') . '/plugged'
 call plug#begin(stdpath('data').'/plugged')
 
+    " VIM Syntax for TOML
+    Plug 'cespare/vim-toml'
+
+    "CheatSheet Plugin
+    Plug 'dbeniamine/cheat.sh-vim'
+
     "FireNVim: Turn your browser into a Neovim client.
     Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(69) } }
 
@@ -50,6 +56,9 @@ call plug#begin(stdpath('data').'/plugged')
 
     " Startify
     Plug 'mhinz/vim-startify'
+
+    "Multicirsor like in VSCode (Select Words with Ctrl+N)
+    " Plug 'mg979/vim-visual-multi', {'branch': 'master'}
     
     " Vim be good is a plugin designed to make you better at vim by creating a game to practice basic movements in.
     " Plug 'ThePrimeagen/vim-be-good', {'do': './install.sh'}
