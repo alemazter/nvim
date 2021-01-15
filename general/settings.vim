@@ -20,6 +20,7 @@ set tabstop=4 softtabstop=4
 set shiftwidth=4
 set expandtab
 set smartcase
+set scrolloff=8
 set incsearch
 set nohlsearch
 set completeopt=menuone,noinsert,noselect
@@ -42,6 +43,7 @@ let g:python3_host_prog = '/home/jorge/.local/share/virtualenvs/nvim-86YW0UDp/bi
 colorscheme gruvbox
 set background=dark
 let g:gruvbox_contrast_dark = 'medium'
+highlight Normal guibg=none
 
 " use rg instead of grep for search and replace
 set grepprg=rg\ --vimgrep\ --smart-case\ --follow

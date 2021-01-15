@@ -8,7 +8,7 @@ nnoremap <silent> <Leader><Leader> :source $MYVIMRC<cr>
 nnoremap <leader>cd :cd %:p:h<cr>
 
 "Mapping NERDTree
-map <C-n> :NERDTreeToggle<cr>
+nnoremap <C-n> :NERDTreeToggle<cr>
 
 " Use alt + hjkl to resize windows
 nnoremap <M-j>  :resize -2<CR>
