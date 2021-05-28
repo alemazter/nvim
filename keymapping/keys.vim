@@ -31,7 +31,7 @@ nmap <leader>t :vsplit term://zsh<cr>
 
 " FZF keybinds
 " Find files
-nnoremap <silent> <leader>f :Files<cr>
+" nnoremap <silent> <leader>f :Files<cr>
 
 " Find In Files
 nnoremap <silent> <C-f> :Rg<cr>

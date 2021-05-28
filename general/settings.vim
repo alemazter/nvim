@@ -23,7 +23,7 @@ set smartcase
 set scrolloff=8
 set incsearch
 set nohlsearch
-set completeopt=menuone,noinsert,noselect
+" set completeopt=menuone,noinsert,noselect
 set signcolumn=yes
 set colorcolumn=80
 highlight ColorColumn ctermbg=0 guibg=lightgrey
@@ -56,3 +56,7 @@ let regs=split('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789/-
 for r in regs
   call setreg(r, [])
 endfor
+
+" Type :w!! to reload the buffer but with sudo privileges
+cnoremap w!! execute 'silent! write !sudo tee % >/dev/null' <bar> edit!
+

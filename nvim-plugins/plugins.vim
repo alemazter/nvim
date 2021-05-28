@@ -13,9 +13,16 @@ call plug#begin(stdpath('data').'/plugged')
     Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(69) } }
 
     " FZF Plugin. FUzzy Finder
-    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-    Plug 'junegunn/fzf.vim'
+    " Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+    " Plug 'junegunn/fzf.vim'
 
+    " Telescope
+    Plug 'nvim-lua/popup.nvim'
+    Plug 'nvim-lua/plenary.nvim'
+    Plug 'nvim-telescope/telescope.nvim'
+    Plug 'nvim-telescope/telescope-fzy-native.nvim'
+    
+    
     " NERDTree
     Plug 'preservim/nerdtree'
 
@@ -54,8 +61,11 @@ call plug#begin(stdpath('data').'/plugged')
     " NERDCommenter 
     Plug 'preservim/nerdcommenter'
 
+    " Vader tests Exersism requirement
+    Plug 'junegunn/vader.vim'
+
     " Startify
-    Plug 'mhinz/vim-startify'
+    " Plug 'mhinz/vim-startify'
 
     "Multicirsor like in VSCode (Select Words with Ctrl+N)
     " Plug 'mg979/vim-visual-multi', {'branch': 'master'}
