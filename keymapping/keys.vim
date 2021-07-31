@@ -7,19 +7,11 @@ nnoremap <silent> <Leader><Leader> :source $MYVIMRC<cr>
 "Change working directory
 nnoremap <leader>cd :cd %:p:h<cr>
 
-"Mapping NERDTree
-nnoremap <C-n> :NERDTreeToggle<cr>
-
 " Use alt + hjkl to resize windows
 nnoremap <M-j>  :resize -2<CR>
 nnoremap <M-k>  :resize +2<CR>
 nnoremap <M-h>  :vertical resize -2<CR>
 nnoremap <M-l>  :vertical resize +2<CR>
-
-
-" NerdCommenter Toggle remap to CTRL+/
-vmap <C-_> <Plug>NERDCommenterToggle<cr>
-nmap <C-_> <Plug>NERDCommenterToggle<cr>
 
 " Start Terminal using PowerShell 7 (Preview)
 " For default shell, remove "://pwsh.exe"
@@ -28,14 +20,6 @@ nmap <C-_> <Plug>NERDCommenterToggle<cr>
 "       :vsplit term://top
 " For more :help terminal
 nmap <leader>t :vsplit term://zsh<cr>
-
-" FZF keybinds
-" Find files
-" nnoremap <silent> <leader>f :Files<cr>
-
-" Find In Files
-nnoremap <silent> <C-f> :Rg<cr>
-nmap <leader>b :Buffers<cr>
 
 " Move between buffers
 nnoremap <leader><tab> :bn<cr>

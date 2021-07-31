@@ -4,10 +4,11 @@ let g:config_file_list = ['/nvim-plugins/plugins.vim',
     \ '/general/settings.vim',
     \ '/keymapping/keys.vim',
     \ '/themes/airline.vim',
+    \ '/plug-config/cheatsheet.vim',
     \ '/plug-config/coc.vim',
     \ '/plug-config/nerdcommenter.vim',
+    \ '/plug-config/telescope.vim',
     \ '/plug-config/prettier.vim',
-    \ '/plug-config/cheatsheet.vim',
     \ ]
 
 for f in g:config_file_list

@@ -1,3 +1,10 @@
+"Mapping NERDTree
+nnoremap <C-n> :NERDTreeToggle<cr>
+
+" NerdCommenter Toggle remap to CTRL+/
+vmap <C-_> <Plug>NERDCommenterToggle<cr>
+nmap <C-_> <Plug>NERDCommenterToggle<cr>
+
 " Add spaces after comment delimiters by default
 let g:NERDSpaceDelims = 1
 
